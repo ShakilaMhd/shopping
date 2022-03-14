@@ -15,7 +15,7 @@ body {
       height: auto;
       border: 2px solid rgba($white, $alpha: 1);
       border-radius: 40px;
-      box-shadow: 0 0 50px rgba($black, $alpha: 0.3);
+      box-shadow: 0 0 5px rgba($white, $alpha: 0.3);
       background-color: $bg-main;
 
       form {
@@ -47,6 +47,7 @@ body {
           color: $white;
           font-size: .9rem;
           border: none;
+          cursor: pointer;
         }
       }
     }

@@ -6,7 +6,7 @@
 
 body {
   font-family: "Roboto Mono", monospace;
-  background-color: #96712e;
+  background-color: #08263a;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -36,7 +36,7 @@ body .container .main {
   height: auto;
   border: 2px solid white;
   border-radius: 40px;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
   background-color: #c7cfd3;
 }
 body .container .main form {
@@ -61,10 +61,11 @@ body .container .main form #submit {
   width: 35%;
   height: 40px;
   margin-top: 2em;
-  background-color: #96712e;
+  background-color: #08263a;
   color: #fff;
   font-size: 0.9rem;
   border: none;
+  cursor: pointer;
 }
 
-/*# sourceMappingURL=styl.css.map */
+/*# sourceMappingURL=login.css.map */
