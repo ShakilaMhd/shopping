@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #08263a;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+label,
+input,
+button {
+  display: block;
+}
+
+label {
+  font-family: roboto-bold;
+}
+
+body .cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15em;
+  margin: 5em 2em;
+  color: #fff;
+}
+body .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+body .container .card {
+  text-align: center;
+  width: 24%;
+  height: 460px;
+  border: none;
+  border-radius: 20px;
+  padding: 1em;
+  background-color: #8197a1;
+}
+body .container .card h2,
+body .container .card p, body .container .card small {
+  text-align: left;
+  margin-left: 1em;
+  color: #000;
+  font-weight: 700;
+}
+body .container .card .btn {
+  width: 100%;
+  padding-top: 0.5em;
+}
+body .container .card .btn button {
+  margin: 0 auto;
+  width: 70%;
+  height: 32px;
+  border: none;
+  border-radius: 20px;
+  background-color: #e9dada;
+  cursor: pointer;
+  transition: transform 1s;
+}
+body .container .card .btn button:hover {
+  background-color: #9494b1;
+  color: #fff;
+  transition: 0.8s;
+}
+body .container img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=product.css.map */

@@ -6,7 +6,7 @@ function validate() {
     
     if (username == "admin" && password == "admin") {
         alert("Login Succesfully...");
-        window.location = "";
+        window.location.href = "products.html";
         return false;
     } 
     else {
