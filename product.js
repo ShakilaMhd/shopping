@@ -81,18 +81,18 @@ const productWrapper_3 = document.querySelector(".products-3");
 // strt = start
 // fnsh = finish
 
-function Wrapper (wrapp, strt, fnsh) {
+function Wrapper(wrapp, strt, fnsh) {
 
-if (wrapp) {
+    if (wrapp) {
 
-    let template = ``;
+        let template = ``;
 
-    for (const product of products) {
-     
-        let idd = product.id;
+        for (const product of products) {
 
-        if( idd>=strt && idd<=fnsh){
-               template += `
+            let idd = product.id;
+
+            if (idd >= strt && idd <= fnsh) {
+                template += `
                    <div class="card">
                      <img src="${product.image}" alt="">
                      <h2>${product.name}</h2>
@@ -102,13 +102,11 @@ if (wrapp) {
                     </div>
                    </div>
             `
-            idd++;
-}
-
-        
+                idd++;
+            }
+        }
+        wrapp.innerHTML = template;
     }
-    wrapp.innerHTML = template;
-}
 }
 
 Wrapper(productWrapper_1, 1, 4);
